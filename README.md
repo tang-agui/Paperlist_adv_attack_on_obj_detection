@@ -1,12 +1,9 @@
-Updating...
-
 # A Paperlist of Adversarial Attack on Object Detection
 
 ## Planar Patches Attack
 
 - [2021 arxiv] Physical Adversarial Attacks on an Aerial Imagery Object Detector, [PDF](http://arxiv.org/abs/2108.11765), physical
 - [2021 Information Sciences]Towards a physical-world adversarial patch for blinding object detection models, [PDF](https://www.researchgate.net/publication/346418956_Towards_a_physical-world_adversarial_patch_for_blinding_object_detection_models),  physical
-- [2020 ATVA] Adversarial Patch Camouflage against Aerial Detection, [PDF](https://arxiv.org/abs/2008.13671v1), physical
 - [2020 arxiv] Dynamic Adversarial Patch for Evading Object Detection, [PDF](http://arxiv.org/abs/2010.13070) , physical
 - [2020 arxiv] object hider: adversarial patch attack against object detectors, [PDF](http://arxiv.org/abs/2010.14974), physicals
 - [2020 TPS-ISA] Adversarial Objectness Gradient Attacks on Real-time Object Detection Systems, [PDF](https://khchow.com/media/arXiv_TOG.pdf), [Talk](http://www.youtube.com/watch?v=acWI5pFNvwg), [Source code](https://github.com/git-disl/TOG), digital & physicals
@@ -46,7 +43,23 @@ Updating...
 - [2019 ICLR] CAMOU: LEARNING A VEHICLE CAMOUFLAGE FOR PHYSICAL ADVERSARIAL ATTACK ON OBJECT DETECTORS IN THE WILD, [PDF](https://openreview.net/forum?id=SJgEl3A5tm), digital
 - [2019 CVPR] MeshAdv Adversarial Meshes for Visual Recognition, [PDF](https://arxiv.org/abs/1810.05206), physical
 
+## Attack against Aerial Object detectors
+
+- [2020 ATVA] Adversarial Patch Camouflage against Aerial Detection, [PDF](https://arxiv.org/abs/2008.13671v1), digital
+
+- [WACV 2022] [hysical Adversarial Attacks on an Aerial Imagery Object Detector, [homepage](https://bochenys.github.io/publication/#), [PDF](https://idrl.yuque.com/idrl/qmghbs/ctvwdy), [demo](https://www.youtube.com/watch?v=5N6JDZf3pLQ)
+
+- [remote sensing] Scale-Adaptive adversarial patch attack for remote sensing image aircraft detection,[PDF](https://www.mdpi.com/2072-4292/13/20/4078), digital
+
+- [preprint] Adversarial Attacks against a Satellite-borne Multispectral Cloud Detector, [PDF](http://arxiv.org/abs/2112.01723), digital
+
 ## Defense of Attacks on Object Detectors
+
+
+- [2021 ICLR Workshop on Security and Safety in Machine Learning Systems (Travel Award)], [PDF](https://arxiv.org/abs/2104.12609), [[GitHub\]](https://github.com/inspire-group/PatchGuard) [[Slides\]](https://docs.google.com/presentation/d/18CkJgKKFyqg4HiMdmo2NfK-6DLxbfYTz/edit?usp=sharing&ouid=116832966097136449073&rtpof=true&sd=true) [[Poster\], digital](https://drive.google.com/file/d/1EoT8jSNZZqFuWabVtWNctzHPXSfH45Km/view?usp=sharing)
+- [2021 ACM CCS], DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks, [PDF](https://arxiv.org/abs/2102.02956) [[GitHub\]](https://github.com/inspire-group/DetectorGuard) [[ACM DL\]](https://dl.acm.org/doi/10.1145/3460120.3484757) [[Video\]](https://drive.google.com/file/d/1gwsnLxFMzZ6BsJpmsyvlzbWnuYyFI0Fq/view?usp=sharing) [[Slides\]](https://docs.google.com/presentation/d/1IWeeymYDKsQF3HBZxlDRTh6QrXGcmZ1j/edit?usp=sharing&ouid=116832966097136449073&rtpof=true&sd=true), digital
+- [2021 USENIX Security], PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking, [PDF](https://www.usenix.org/conference/usenixsecurity21/presentation/xiang), [[GitHub\]](https://github.com/inspire-group/PatchGuard) [[arXiv Technical Report\]](https://arxiv.org/abs/2005.10884) [[Video\]](https://www.usenix.org/conference/usenixsecurity21/presentation/xiang) [[Slides\]](https://docs.google.com/presentation/d/14-ygg5RA_bUHThUqrYz3lkwERDZVRSA6/edit?usp=sharing&ouid=116832966097136449073&rtpof=true&sd=true), digital
+- [arXiv 2108],PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier, [PDF](https://arxiv.org/abs/2108.09135), [GitHub\]](https://github.com/inspire-group/PatchCleanser), digital
 
 
 - [2021 arxiv] adversarial YOLO defense human detection patch attacks via detecting adversarial patches, [PDF](http://arxiv.org/abs/2103.08860), physical
@@ -103,11 +116,9 @@ Updating...
 7. **Remote sensing/UAV aerial dataset**
 
 - Aerial Image：[https://blog.csdn.net/u012811785/article/details/113175711](https://blog.csdn.net/u012811785/article/details/113175711)
-
 - DLR 3K：[https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5431/9230_read-42467](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-5431/9230_read-42467)
-- VEDAI：https://downloads.greyc.fr/vedai/
+- VEDAI：https://downloads.greyc.fr/vedai/ (vehicle detection)
 - DIOR：https://arxiv.org/abs/1909.00133
-- VisDrone: http://aiskyeye.com/
 
 8. **Cars Overhead With Context (COWC)**
 
@@ -115,4 +126,19 @@ Updating...
 - paper: http://gdo-datasci.ucllnl.org/cowc/mundhenk_et_al_eccv_2016.pdf
 - poster: http://gdo-datasci.ucllnl.org/cowc/ECCV.poster.big.jpg
 - usage: https://arthurdouillard.com/post/nato-challenge/
+
+9. **visdrone**
+
+- Homepage: http://aiskyeye.com/
+- paper: http://arxiv.org/abs/1804.07437
+
+10. **NWPU VHR-10**
+
+- homepage: www.escience.cn/people/gongcheng/NWPU-VHR-10.html
+- paper: http://ieeexplore.ieee.org/document/7560644/
+
+11. **RSOD**
+
+- homepage: https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-
+- paper: https://www.tandfonline.com/doi/full/10.1080/01431161.2014.999881
 
